@@ -13,7 +13,7 @@ export const Header: React.FC<HeaderProps> = ({ className }) => {
             </div>
         </a></div>
         <div className={styles['header-middle-area']}>
-            <nav className={styles['main-nav']}><a href="/home" className={styles['main-nav-link']}>Home</a><a href="/projects" className={styles['main-nav-link']}>Projects</a><a href="/about" className={styles['main-nav-link']}>About Us</a></nav>
+            <nav className={styles['main-nav']}><a href="#" className={styles['main-nav-link']}>Home</a><a href="#" className={styles['main-nav-link']}>Projects</a><a href="#" className={styles['main-nav-link']}>About Us</a></nav>
         </div>
     </header>;
 };
