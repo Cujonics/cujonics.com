@@ -1,6 +1,4 @@
-.root {
-    
-}
+.root {}
 
 .footer-navigation {
     display: block;
@@ -10,11 +8,16 @@
 
 .logo-footer {
     align-self: center;
+    font-size: 1rem;
 }
 
 .secondary-nav {
     text-decoration: none;
     margin: 0 5px;
-    color: var(--bright-green);
+    color: var(--green-middle);
     font-size: 13px;
+}
+
+.secondary-nav:hover {
+    color: var(--green-bright);
 }

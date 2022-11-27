@@ -4,16 +4,7 @@
     min-height: 100px;
 }
 
-:root {
-    --black: #07090A;
-    --white: #ffffff;
-    --blue-logo: #126BEE;
-    --blue-darker: #1752AB;
-    --green-dark: #149F83;
-    --bright-green: #00FFCD;
-    --violet-broght: #3D29AC;
-    --violet-normal: #3A1AF0;
-}
+
 
 .layout__content {
     width: 100%;
@@ -26,7 +17,7 @@
 }
 
 .secondary-title {
-    color: var(--bright-green);
+    color: var(--green-bright);
     font-size: 1em;
     padding: 0;
     margin: 0;
@@ -54,8 +45,12 @@
     border: 1px solid var(--green-dark);
     border-radius: 6px;
     text-decoration: none;
-    color: var(--bright-green);
+    color: var(--green-middle);
     font-size: 18px;
+}
+.navigation-button:hover{
+    color: var(--green-bright);
+    border: 1px solid var(--green-middle);
 }
 
 .buttons-wrapper {

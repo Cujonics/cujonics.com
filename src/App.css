@@ -5,23 +5,29 @@ body{
     height:100%;
 }
 
+:root {
+    --black: #07090a;
+    --white: #fff;
+    --blue-logo: #126bee;
+    --blue-middle: #2156a4;
+    --blue-dark: #2a456d;
+    --blue-pale: #202b3b;
+    --green-dark: #226a5c;
+    --green-middle: #149f83;
+    --green-bright: #00ffcd;
+    --green-pale: #1d3934;
+    --violet-dark: #392f73;
+    --violet-normal: #3d29ac;
+    --violet-bright: #3a1af0;
+    --violet-pale: #27233e;
+}
+
 .App {
     text-align: center;
     background: var(--black);
     display: block;
     height: 100%;
 }
-
-:root {
-    --black: #07090A;
-    --white: #ffffff;
-    --blue-logo: #126BEE;
-    --blue-darker: #1752AB --green-dark: #149F83;
-    --bright-green: #00FFCD;
-    --violet-broght: #3D29AC;
-    --violet-normal: #3A1AF0;
-}
-
 
 .App-logo {
     height: 40vmin;
@@ -31,14 +37,13 @@ body{
 @media (prefers-reduced-motion: no-preference) {}
 
 .App-header {
-    background-color: #282c34;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: var(--white);
 }
 
 .App-link {
