@@ -4,6 +4,8 @@ module.exports = {
      * Refer to https://component-studio.wixanswers.com/en/article/kb20017 for more information.
      */
 
+    svgLoader: "asset",
+
     newComponent: {
         /* This path is required to create new components through WCS. */
         componentsPath: 'src',
