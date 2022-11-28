@@ -9,7 +9,8 @@ function App() {
         <div className="App">
             <div className="wrapper">
                 <div className="layout">
-                    <Header /><Main className="content" />
+                    <Header />
+                  <Main className="content" />
                     <Footer className="footer" />
                 </div>
             </div></div>
