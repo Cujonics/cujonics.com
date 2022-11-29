@@ -57,9 +57,18 @@ hi.logo-text>h1 {
     height: 50px;
 }
 
+@media (max-width: 600px) {
+    .icon {
+        display: none !important; //TODO refactor shame css
+    }
+}
+
 .icon {
     margin-right: 7px;
 }
+
+
+
 
 .main-nav {
     padding: 0px 30px 0px 0px;

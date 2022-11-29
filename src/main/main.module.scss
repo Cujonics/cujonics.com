@@ -29,8 +29,15 @@
     padding: 0;
 }
 
+@media (max-width: 600px) {
+    .main-article-conten {
+        max-width: 300px; //TODO refactor shame css
+        padding: 10px;
+    }
+}
+
 .main-article-content {
-    width: 400px;
+    max-width: 400px;
     display: block;
     margin-right: auto;
     margin-left: auto;

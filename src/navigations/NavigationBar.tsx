@@ -1,6 +1,6 @@
 import { HomeIcon, ProjectRoadmapIcon, WebhookIcon } from "@primer/octicons-react";
 import React from "react";
-import styles from './header.module.scss';
+import styles from '../header/header.module.scss';
 
 
 export const NavigationBar = () => {
