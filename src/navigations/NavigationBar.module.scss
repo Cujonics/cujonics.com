@@ -1,29 +1,31 @@
-
 @media (max-width: 600px) {
-    .icon {
-        display: none !important; //TODO refactor shame css
-    }
+  .icon {
+    display: none !important; //TODO refactor shame css
+  }
 }
 
 .icon {
-    margin-right: 7px;
+  margin-right: 7px;
 }
-
-
 
 
 .main-nav {
-    padding: 0px 30px 0px 0px;
+  padding: 0px 30px 0px 0px;
+  color: var(--green-middle);
 }
 
 .main-nav-link {
-    margin: 0px 0px 0px 20px;
-    color: var(--green-middle);
-    text-decoration: none;
-    font-size: 14px;
-    align-self: baseline;
+  margin: 0px 0px 0px 20px;
+  color: inherit;
+  text-decoration: none;
+  font-size: 14px;
+  align-self: baseline;
 }
 
 .main-nav-link:hover {
-    color: var(--green-bright);
+  color: var(--green-bright);
+}
+
+.active {
+  color: var(--green-dark);
 }

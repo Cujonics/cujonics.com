@@ -85,9 +85,9 @@ body{
     background-clip: border-box;
 }
 
-.content {
-    flex: 1 0 auto;
-}
+/*.content {*/
+/*    flex: 1 0 auto;*/
+/*}*/
 
 .footer {
     flex-shrink: 0;

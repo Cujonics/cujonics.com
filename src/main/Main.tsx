@@ -6,7 +6,8 @@ export interface MainProps {
 }
 
 export const Main: React.FC<MainProps> = ({ className }) => {
-    return <main className={`${styles.root} ${className}`}><div className={styles.layout__content}>
+    return <main className={`${styles.root} ${className}`}>
+        <div className={styles.layout__content}>
         <h3 className={styles['secondary-title']}>Learn more about</h3>
         <h1 className={styles['primary-title']}>Our Applications</h1>
         <div className={styles['main-article-content']}>

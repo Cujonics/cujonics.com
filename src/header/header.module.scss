@@ -1,6 +1,6 @@
 .root {
     background-color: var(--black);
-    height: 100px;
+    height: 120px;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
@@ -55,33 +55,4 @@ hi.logo-text>h1 {
 .logo-png {
     width: 50px;
     height: 50px;
-}
-
-@media (max-width: 600px) {
-    .icon {
-        display: none !important; //TODO refactor shame css
-    }
-}
-
-.icon {
-    margin-right: 7px;
-}
-
-
-
-
-.main-nav {
-    padding: 0px 30px 0px 0px;
-}
-
-.main-nav-link {
-    margin: 0px 0px 0px 20px;
-    color: var(--green-middle);
-    text-decoration: none;
-    font-size: 14px;
-    align-self: baseline;
-}
-
-.main-nav-link:hover {
-    color: var(--green-bright);
 }
