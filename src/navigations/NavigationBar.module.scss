@@ -4,11 +4,6 @@
   }
 }
 
-.icon {
-  margin-right: 7px;
-}
-
-
 .main-nav {
   padding: 0px 30px 0px 0px;
   color: var(--green-middle);
@@ -28,4 +23,12 @@
 
 .active {
   color: var(--green-dark);
+}
+
+.icon {
+  margin-right: 7px;
+}
+
+.icon-none {
+  display: none !important; //TODO refactor shame css
 }

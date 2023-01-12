@@ -5,6 +5,7 @@ import { NavigationBar } from "../navigations/NavigationBar";
 
 export interface HeaderProps {
 	className?: string;
+	visibility?: string;
 }
 
 export const Header: React.FC<HeaderProps> = ({className}) => {
@@ -15,7 +16,7 @@ export const Header: React.FC<HeaderProps> = ({className}) => {
 			<Logo/>
 		</a></div>
 		<div className={styles["header-middle-area"]}>
-			<NavigationBar/>
+			<NavigationBar visibility={"icon"}/>
 		</div>
 	</header>;
 };

@@ -11,10 +11,10 @@ export interface FooterProps {
 export const Footer: React.FC<FooterProps> = ({className}) => {
 	return <footer className={`${className} footer`}>
 		<div className={`${Header_module["logo-text"]} ${styles["logo-footer"]}`}>
-			Cujonics &copy;
+			Cujonics &copy; 2023
 		</div>
 		<div className={styles["footer-navigation"]}>
-		<NavigationBar/>
+		<NavigationBar visibility={"icon-none"}/>
 		</div>
 	</footer>;
 };
