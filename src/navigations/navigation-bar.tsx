@@ -1,7 +1,7 @@
 import { HomeIcon, ProjectRoadmapIcon, WebhookIcon } from "@primer/octicons-react";
 import React, { FC, ReactNode } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import styles from "../navigations/NavigationBar.module.scss";
+import styles from "./navigation-bar.module.scss";
 
 interface Props {
 	children?: ReactNode,
@@ -34,7 +34,7 @@ const CustomeLink: FC<Props> = ({to, children, ...props}) => {
 		<span className={isActive
 		               ? styles["active"]
 		               : ""}>
-			
+
 			<Link to={to}{...props}
 			      className={styles["main-nav-link"]}>
 				{children}

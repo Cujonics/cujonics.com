@@ -1,5 +1,5 @@
 import React from "react";
-import { NavigationBar } from "../navigations/NavigationBar";
+import { NavigationBar } from "../navigations/navigation-bar";
 import Header_module from "../header/header.module.scss";
 import styles from "./footer.module.scss";
 
