@@ -2,17 +2,17 @@
   "svgLoader": "asset",
   "newComponent": {
     "componentsPath": "src",
-    "templatesPath": "src/wcs-component-templates"
+    "templatesPath": "src/_codux/component-templates"
   },
   "componentsDiscovery": {
     "include": [
       "src/**"
     ],
     "exclude": [
-      "src/wcs-component-templates/**"
+      "src/_codux/**"
     ]
   },
-  "boardGlobalSetup": "./src/boards-global-setup.ts",
+  "boardGlobalSetup": "./src/_codux/boards-global-setup.ts",
   "scripts": {
     "install": {
       "title": "Install",

@@ -5,6 +5,6 @@ export interface NewComponentProps {
     className?: string;
 }
 
-export const NewComponent: React.FC<NewComponentProps> = ({ className }) => {
+export const NewComponent = ({className}: NewComponentProps) => {
     return <div className={`${styles.root} ${className}`}>NewComponent</div>;
 };
